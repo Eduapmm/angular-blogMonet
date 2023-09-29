@@ -1,0 +1,27 @@
+.container__big-card{
+    width: 600px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: segoi UI;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+.big-card__title {
+   font-size: 20px;
+   margin-top: 10px;
+  
+}
+.big-card__description > p{
+    color: grey;
+    display: flex;
+    text-align: justify;
+    margin: 20px;
+}
+.big-card__photo > img{
+    width: 100%;
+}

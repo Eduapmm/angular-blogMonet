@@ -1,0 +1,48 @@
+.container__small-card{
+    width:600px;
+    height: 171px;    
+    align-items: center;
+    font-family: segoi UI;
+    align-items: center;
+    justify-content: flex-start;    
+    margin-right: 20px;
+    margin-top: 15px;
+
+   
+}
+.container__small-card-content{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.small-card__title {
+    display: flex;
+    justify-content: left;
+    align-items: right;
+    font-size: 10px;
+    margin-left: 30px;
+    font-size: 50%;
+    margin-top: 10%;
+     
+}
+.small-card__description > p{
+    color: grey;
+    display: flex;
+    text-align: justify;
+    justify-content: right;
+    margin: 30px;
+    font-size: 13px;
+    margin-top: 20px;
+}
+.small-card__photo > img{
+    width: 200px;
+    height: 130px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.small-card__textos{
+    display: flex;
+    flex-direction: column;
+}
