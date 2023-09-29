@@ -13,8 +13,7 @@
     margin-top: 20px;
 }
 .content__cover > img{
-    width: 500px;
-    min-width: 500px;
+    width: 250px;
     height: 300px;
 }
 .content__title{
@@ -27,6 +26,10 @@
     text-align: center;
     line-height: 150%;
 }
+.content__description > p{
+    color: grey;
+}
+
 .ancora{
     font-size: 12px;
     margin-bottom: 20px;

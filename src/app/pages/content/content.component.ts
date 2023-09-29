@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import{dataFake} from '../../data/datafake'
 
 @Component({
   selector: 'app-content',
@@ -7,13 +9,29 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  photoCover: string = "https://arteref.com/wp-content/uploads/2019/11/picasso-mate%CC%81ria-600x623.jpg"
-  contentTitle: string = "Les Demoiselles dAvignon (1907)"
-  contentDescription: string = "Les Demoiselles d'Avignon é uma famosa pintura cubista criada por Pablo Picasso em 1907. Nesta obra-prima, Picasso rompe com as convenções artísticas tradicionais, retratando cinco figuras femininas de forma angular e distorcida, influenciada pela arte africana e ibérica. A composição é marcada por linhas quebradas e formas geométricas, criando uma sensação de tensão e desordem. As máscaras africanas e a abstração das formas refletem a busca do artista por uma nova linguagem visual, que se tornou fundamental para o desenvolvimento da arte moderna no século XX. Les Demoiselles d'Avignon é considerada uma das obras mais importantes da história da arte."
+  photoCover: string = "http://f.i.uol.com.br/folha/ilustrada/images/12173365.jpeg"
+  contentTitle: string = "A mulher sentada"
+  contentDescription: string = "A pintura Mulher Sentada de Picasso é um exemplo magistral do estilo cubista, caracterizado por formas geométricas abstratas e uma representação fragmentada da figura humana. Nesta obra, vemos uma mulher sentada com contornos angulares e cores vibrantes, mostrando sua habilidade em desafiar as convenções artísticas. As linhas dinâmicas e os ângulos intrincados criam uma sensação de movimento e profundidade, enquanto a expressão facial é distorcida, mas ainda assim transmite uma presença poderosa. Picasso, com sua genialidade, transforma a simplicidade de uma mulher sentada em uma obra de arte complexa e emocionalmente carregada, convidando o espectador a contemplar a beleza na abstração."
+  private id: string | null= "0"
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute
+
+  ) { }
 
   ngOnInit(): void {
+      this.route.paramMap.subscribe( value =>
+        this.id=value.get("id")
+        )
+
+        this.setValuesToComponent(this.id)
 
   }
-}
+  setValuesToComponent(id:string | null){
+    const result = dataFake.filter(article => article.id == id)[0]
+
+    console.log(result)
+    }
+
+  }
+
