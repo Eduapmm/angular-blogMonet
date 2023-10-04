@@ -9,11 +9,11 @@ import{dataFake} from '../../data/datafake'
 })
 export class ContentComponent implements OnInit {
 
-  photoCover: string = "http://f.i.uol.com.br/folha/ilustrada/images/12173365.jpeg"
-  contentTitle: string = "A mulher sentada"
-  contentDescription: string = "A pintura Mulher Sentada de Picasso é um exemplo magistral do estilo cubista, caracterizado por formas geométricas abstratas e uma representação fragmentada da figura humana. Nesta obra, vemos uma mulher sentada com contornos angulares e cores vibrantes, mostrando sua habilidade em desafiar as convenções artísticas. As linhas dinâmicas e os ângulos intrincados criam uma sensação de movimento e profundidade, enquanto a expressão facial é distorcida, mas ainda assim transmite uma presença poderosa. Picasso, com sua genialidade, transforma a simplicidade de uma mulher sentada em uma obra de arte complexa e emocionalmente carregada, convidando o espectador a contemplar a beleza na abstração."
+  photoCover: string = "https://i0.wp.com/www.historiadasartes.com/wp-content/uploads/2017/12/m_obra.jpg?resize=500%2C362&ssl=1"
+  contentTitle: string = "Praia de Sainte Adress"
+  contentDescription: string = "A Praia de Sainte-Adresse, situada na costa da Normandia, foi uma fonte inesgotável de inspiração para diversos artistas, incluindo Claude Monet. Nesta encantadora localidade à beira-mar, Monet encontrou o cenário perfeito para capturar a luz mágica do litoral e a serenidade do oceano em suas famosas pinturas impressionistas. As areias douradas se estendem até onde os olhos podem ver, enquanto as ondas suaves quebram na praia, criando uma melodia calmante. As velas coloridas dos barcos balançam ao vento, adicionando um toque de vivacidade à paisagem tranquila. Cada pincelada meticulosa de Monet retrata não apenas a beleza natural, mas também a atmosfera relaxante e atemporal da praia de Sainte-Adresse, transportando os espectadores para um estado de contemplação e admiração diante da majestade do mar. É um tributo artístico à simplicidade e à elegância da vida à beira-mar, preservando a memória desse local pitoresco através da arte intemporal."
   private id: string | null= "0"
-
+  
   constructor(
     private route: ActivatedRoute
 

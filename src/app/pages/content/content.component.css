@@ -13,21 +13,22 @@
     margin-top: 20px;
 }
 .content__cover > img{
-    width: 250px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
 }
 .content__title{
     margin-top: 20px;
 }
 .content__description{
     margin-top: 30px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 170px;
+    margin-right: 170px;
     text-align: center;
     line-height: 150%;
 }
 .content__description > p{
     color: grey;
+    text-align: justify;
 }
 
 .ancora{

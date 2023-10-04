@@ -1,31 +1,31 @@
 export const dataFake = [
     {
         "id": "1",
-        "photoCover":"https://arteref.com/wp-content/uploads/2019/11/picasso-mate%CC%81ria-600x623.jpg",
-        "title": "Les Demoiselles dAvignon (1907)",
-        "description":"Les Demoiselles d'Avignon é uma famosa pintura cubista criada por Pablo Picasso em 1907. Nesta obra-prima, Picasso rompe com as convenções artísticas tradicionais, retratando cinco figuras femininas de forma angular e distorcida, influenciada pela arte africana e ibérica. A composição é marcada por linhas quebradas e formas geométricas, criando uma sensação de tensão e desordem. As máscaras africanas e a abstração das formas refletem a busca do artista por uma nova linguagem visual, que se tornou fundamental para o desenvolvimento da arte moderna no século XX. Les Demoiselles d'Avignon é considerada uma das obras mais importantes da história da arte.",
+        "photoCover":"https://abra.com.br/wp-content/uploads/2021/10/monet-240x300.jpg",
+        "title": "Ponte sobre uma Lagoa de Lírios d’Água",
+        "description":"A obra Ponte sobre uma Lagoa de Lírios d’Água de Claude Monet é uma representação sublime da harmonia entre a natureza e a arte. Nesta pintura, a ponte graciosa se estende sobre uma lagoa repleta de lírios d'água, criando uma atmosfera de serenidade e encanto. Monet captura a luz e os reflexos de forma magistral, proporcionando uma sensação de movimento e tranquilidade ao mesmo tempo. Cada pincelada revela sua maestria em capturar a efemeridade da natureza, imortalizando esse momento fugaz em uma tela que continua a fascinar o mundo, convidando os espectadores a se perderem na beleza cativante da natureza.",
         
 
     },
     {
         "id": "2",
-        "photoCover":"http://f.i.uol.com.br/folha/ilustrada/images/12173365.jpeg",
-        "title": "Mulher sentada",
-        "description":"A Mulher Sentada de Picasso é uma síntese cubista magistral, capturando a essência da figura feminina com formas geométricas inovadoras e linhas dinâmicas.",
+        "photoCover":"https://i0.wp.com/www.historiadasartes.com/wp-content/uploads/2017/12/m_obra.jpg?resize=500%2C362&ssl=1",
+        "title": "Praia de Sainte Adresse",
+        "description":"A Praia de Sainte-Adresse, situada na costa da Normandia, foi uma fonte inesgotável de inspiração para diversos artistas, incluindo Claude Monet. Nesta encantadora localidade à beira-mar, Monet encontrou o cenário perfeito para capturar a luz mágica do litoral e a serenidade do oceano em suas famosas pinturas impressionistas. As areias douradas se estendem até onde os olhos podem ver, enquanto as ondas suaves quebram na praia, criando uma melodia calmante. As velas coloridas dos barcos balançam ao vento, adicionando um toque de vivacidade à paisagem tranquila. Cada pincelada meticulosa de Monet retrata não apenas a beleza natural, mas também a atmosfera relaxante e atemporal da praia de Sainte-Adresse, transportando os espectadores para um estado de contemplação e admiração diante da majestade do mar. É um tributo artístico à simplicidade e à elegância da vida à beira-mar, preservando a memória desse local pitoresco através da arte intemporal.",
         
     },
     {
         "id": "3",
-        "photoCover":"https://arteref.com/wp-content/uploads/2020/10/the-weeping-woman-1.jpg",
-        "title": "A Mulher que Chora (1937)",
-        "description":"A Mulher que Chora (1937) de Picasso é uma obra intensamente emocional que captura a angústia e a devastação da Guerra Civil Espanhola, tornando-se um poderoso símbolo do sofrimento humano.",
+        "photoCover":"https://i0.wp.com/www.historiadasartes.com/wp-content/uploads/2017/12/m_monet.jpg?resize=500%2C378&ssl=1",
+        "title": "Banhistas de la grenouilliére",
+        "description":"Banhistas de la Grenouillère, uma obra-prima de Pierre-Auguste Renoir, é um testemunho vívido da efervescência da Belle Époque em Paris. Nesta pintura, Renoir captura a alta sociedade parisiense desfrutando de um dia animado na ilha da Grenouillère no rio Sena. As figuras elegantes e os reflexos vibrantes na água são pintados com pinceladas fluidas, transmitindo uma sensação de movimento e alegria. As sombras e luzes meticulosamente trabalhadas dão vida às roupas elegantes e às expressões felizes dos banhistas. É uma janela para a elegância e o hedonismo da época, onde a classe alta se reuniu para socializar e relaxar. Cada detalhe, desde os guarda-sóis coloridos até os sorrisos radiantes, é um testemunho do talento de Renoir em capturar não apenas a aparência física, mas também a atmosfera animada e contagiante da sociedade parisiense no final do século XIX. A obra transcende o tempo, convidando os espectadores a se perderem na alegria efervescente de um momento congelado na história.",
         
     },
     {
         "id": "4",
         "photoCover":"https://arteref.com/wp-content/uploads/2020/10/the-old-guitarist-1.jpg",
-        "title": "Velho Guitarrista Cego (1904)",
-        "description":"O Velho Guitarrista Cego (1904) de Picasso retrata a solidão e a melancolia da idade avançada em tons azuis profundos, demonstrando o domínio do artista na expressão emocional através da cor e da forma.",
+        "title": "Efeito do outono em Argenteuil",
+        "description":"Efeito do Outono em Argenteuil, uma obra magistral de Claude Monet, encapsula a rica paleta de cores do outono em sua plenitude. As árvores exibem uma gama impressionante de tons dourados e vermelhos, refletindo-se suavemente nas águas do rio Sena. Cada pincelada captura a transição sazonal com uma precisão incrível, mostrando a habilidade de Monet em transformar a luz e a cor em uma experiência visual emocionante. A atmosfera é repleta de nostalgia e serenidade, transportando os espectadores para um momento mágico em que a natureza se despede do verão e se prepara para a quietude do inverno. A meticulosidade com que Monet retrata cada folha e cada reflexo cria uma sensação de profundidade e movimento na tela, fazendo com que o espectador sinta o vento suave balançando as folhas. Efeito do Outono em Argenteuil não é apenas uma pintura; é uma experiência sensorial que evoca emoções profundas, convidando-nos a apreciar a efemeridade da beleza na natureza.",
         
     }
 ]
