@@ -30,7 +30,9 @@ export class ContentComponent implements OnInit {
   setValuesToComponent(id:string | null){
     const result = dataFake.filter(article => article.id == id)[0]
 
-    console.log(result)
+    this.contentTitle = result.title
+    this.contentDescription = result.description
+    this.photoCover= result.photoCover
     }
 
   }
